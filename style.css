@@ -1,0 +1,46 @@
+.page{
+    height:100%;
+       background-color: blueviolet;
+}
+.container{
+    width:35%;
+    height:100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.eachCell{
+    width:150px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(255,255,255,0.4);
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.eachCell:hover{
+background-color: darkcyan;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+.restart{
+    margin: 50px;
+    font-size: 30px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+}
+.restart:hover{
+    background-color: brown;
+    
+}
